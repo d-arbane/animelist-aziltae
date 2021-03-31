@@ -1,0 +1,38 @@
+.aziltae-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  justify-content: stretch;
+}
+.aziltae-row > * {
+flex-basis: 20rem;
+flex-shrink: 0;
+
+
+}
+
+
+
+.aziltae-row .cards{
+display: flex;
+flex-direction: column;
+}
+
+.aziltae-row .cards > .card-content {
+  flex-grow: 1;
+}
+.aziltae-row .card > .card-image{
+  flex-basis: 20rem;
+  flex-shrink: 0;
+  overflow-y: hidden;
+
+}
+
+
+
+
+body {
+  margin:0;
+  overflow-x: hidden;
+}
